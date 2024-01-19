@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<!-- 자바 스크립트 사용 이유 : HTML 조작과 변경 -->
+<body>
+	<h2 id="hello">안녕하세요</h2>
+	<h2 id="hi">올 때 메로나</h2>
+
+	<script>
+		document.getElementById('hello').innerHTML = '안녕';
+		// document.getElementById('바꾸고싶은 id 이름').innerHTML = '바꾸고싶은 텍스트';
+		// document.getElementById('바꾸고싶은 id 이름').style.color = 'blue(바꾸고싶은 색상)';
+		// html 요소의 색상, 사이즈, 마진, 패딩 등 모든 것 바꾸기 가능
+		document.getElementById('hi').innerHTML = '올때 바밤바';
+		document.getElementById('hello').style.fontSize = '30px';
+
+	</script>
+
+
+
+
+</body>
+</html>
