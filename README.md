@@ -11,12 +11,20 @@
 
 **✨ HTML 요소는 위에 SCRIPT 창은 아래에 / 변경할 HTML 요소가 있으면 그 하단에 JS 작성**
 
-**EventListener**
+**✨ EventListener**
 - document.getElementById('id 이름').addEventListener('click', function(){}); <br>
--> id 이름을 가진 요소를 클릭하면 함수가 실행되게 해주세요.
-- EventListener 종류
-  1. mouseover
-  2. click
-  3. keydown
-  4. scroll
-  5. 
+-> id 이름을 가진 요소를 클릭하면 함수가 실행되게 해주세요. <br>
+**✨ EventListener 종류** <br>
+- 브라우저 UI와 상호작용 이벤트
+1. load : 웹 페이지 로드 완료되었을 때
+2. resize : 브라우저 창 크기를 조정했을 때
+3. scroll : 사용자가 페이지를 위아래로 스크롤 할 때
+- 키보드 이벤트
+1. keyup : 사용자가 키를 뗄 때
+2. keydown : 사용자가 키를 눌렀을 때
+3. keypress : 사용자가 눌렀던 키의 문자가 입력 되었을 때
+- 마우스 이벤트
+1. click : 사용자가 마우스를 클릭했을 때
+2. mouseover : 요소위로 마우스를 움직였을 때
+
+
