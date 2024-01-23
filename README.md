@@ -44,4 +44,17 @@
 5. append : 선택 요소의 자식 요소의 맨 뒤에 내용을 추가 -> ```$('#test').append('안녕히계세요';)```
 6. remove : 태그를 포함한 요소 전체를 제거 -> ```$('#test').remove();```
 7. empty : 선택 요소의 내용(text)만을 제거 -> ```$('#test').empty();```
-   
+- toggle : 'show'라는 class가 있으면 제거, 없으면 추가 <br>
+```document.getElementsByClassName('list-group')[0].classList.toggle('show');```
+
+## **✨ Selector 선택자** <br>
+**✨ Selector 사용 이유 : DOM(Document Object Model)을 사용하여 HTML 문서의 요소에 접근하고 조작할 수 있게 해주고, 각각의 메서드는 특정 조건에 맞는 요소를 선택하여 JavaScript를 통해 동적인 변경이나 상호작용을 할 수 있도록 함**
+**✨ Selector 종류** <br>
+1. getElementById('id명')
+2. getElementsByClassName('class명')[선택 요소 인덱스] <br>
+-> id 선택에는 Element! class 선택에는 Elements! s 기억하기/'' 사이에 .이나 # 안붙이고 클래스명, 아이디명 작성
+3. querySelector('.class명')
+4. querySelectorAll('.class명')[선택 요소 인덱스] <br>
+-> 클래스 선택자: .className
+-> 아이디 선택자: #idName
+  
