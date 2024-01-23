@@ -8,15 +8,30 @@
 </head>
 <body>
 	
-	<div class="alert-box" id="alert">Alert 박스
-		<button onclick="document.getElementById('alert').style.display ='none';">
-			닫기
-		</button>
+	<div class="alert-box" id="alert">
+		<p id="title">Alert 박스</p>
 	</div>
-	<button onclick="document.getElementById('alert').style.display ='block';">버튼</button>
+	<div>
+		<button id="close"> X </button>
+	</div>
+
+	<button onclick="알림창1열기('아이디를 입력해주세요.')">버튼1</button>
+	<button onclick="알림창1열기('비번을 입력해주세요.')">버튼2</button>
 
 	<script type="text/javascript">
+
+		document.getElementById('close').addEventListener('click', function(){
+			document.getElementById('alert').style.display ='none';
+
+		});
+
+		function 알림창1열기(text){
+			document.getElementById('alert').innerHTML = text;
+			document.getElementById('alert').style.display = 'block';
+		}
 		
+
+
 	</script>
 
 </body>
