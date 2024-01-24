@@ -18,8 +18,10 @@
   background-color: #ddd;
 }
 
-.yellow-bg{
-	background:yellow;
+.list-group{
+	display: none;
 }
-
+.show{
+	display: block;
+}
 
