@@ -53,8 +53,8 @@
 1. getElementById('id명')
 2. getElementsByClassName('class명')[선택 요소 인덱스] <br>
 -> id 선택에는 Element! class 선택에는 Elements! s 기억하기/'' 사이에 .이나 # 안붙이고 클래스명, 아이디명 작성
-3. querySelector('.class명')
-4. querySelectorAll('.class명')[선택 요소 인덱스] <br>
--> 클래스 선택자: .className
+3. querySelector('.class명') -> 조회되는 첫번째 대상만 가져옴
+4. querySelectorAll('.class명')[선택 요소 인덱스] -> 조건에 맞는  dom 객체를  전부 다 가져옴, 배열로 받을 수도 있고 페이지상 하나가 있으면 하나만 가져올 수 있음<br>
+-> 클래스 선택자: .className <br>
 -> 아이디 선택자: #idName
   
